@@ -1,0 +1,40 @@
+.header {
+    background-color: #ffffff; /* Indigo Purple */
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* subtle shadow */
+
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height:50px;
+    width: auto;
+    flex: 0 0 auto; /* Logo takes only needed width */
+
+  }
+  
+  .navbar {
+  flex: 1; /* Navbar takes full remaining space */
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  max-width: 80%; /* Make sure links take only 80% */
+  }
+  
+  .navbar a {
+    color: #4b4f4f;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #00B8A9; /* Teal Green on hover */
+  }
+  

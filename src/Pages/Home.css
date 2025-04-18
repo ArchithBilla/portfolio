@@ -1,0 +1,46 @@
+.page {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: url('../images/home_hero.png') no-repeat center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 80px;
+    color: white;
+    position: relative;
+  }
+  
+  .hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  }
+  
+  .hero-content {
+    position: relative;
+    max-width: 700px;
+    z-index: 2;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content h3 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  
