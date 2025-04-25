@@ -1,0 +1,99 @@
+/* About.css */
+
+.about-page {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+  }
+  
+  /* Hero Section Styles */
+  .about-hero {
+    background-image: url('../images/About_us.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  
+  
+  .hero-overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  /* Content Section Styles */
+  .about-content {
+    padding: 2rem;
+  }
+  
+  .about-section {
+    margin-bottom: 3rem;
+  }
+  
+  .about-section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-features {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-features li {
+    background: #f8f9fa;
+    margin-bottom: 0.8rem;
+    padding: 1rem;
+    border-left: 4px solid #3498db;
+  }
+  
+  /* Services Grid */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .service-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .service-card h3 {
+    color: #2980b9;
+    margin-top: 0;
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    background: #e8f4fc;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about-hero {
+      height: 300px;
+    }
+    
+    .hero-overlay h1 {
+      font-size: 2rem;
+    }
+    
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  }
