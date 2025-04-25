@@ -36,7 +36,6 @@ function Contact() {
     e.preventDefault();
     if (validate()) {
       console.log('Form submitted:', formData);
-      // Here you would typically send data to your backend
       setIsSubmitted(true);
       setFormData({
         name: '',
